@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 50px;
+    font-family: algerian;
+    text-align: center;
+
+}
+header h1 {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.word {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    background-color: #ddd;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+}
