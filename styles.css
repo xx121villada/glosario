@@ -14,7 +14,7 @@ body {
 }
 header {
     background-color: #333;
-    color: cadetblue;
+    color: rgb(55, 143, 146);
     padding: 10px 0;
     font-size: 50px;
     font-family: algerian;
@@ -27,7 +27,7 @@ header h1 {
 }
 .word {
     display: inline-block;
-    width: 200px;
+    width: 250px; 
     height: 50px;
     margin: 20px 18px;
     font-size: 16px;
@@ -39,4 +39,7 @@ header h1 {
     text-align: center;
     border: solid black  ;
     background-color: cadetblue;
+}
+.definition{
+    display: none;
 }
