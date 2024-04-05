@@ -16,7 +16,7 @@ header {
     background-color: #333;
     color: rgb(55, 143, 146);
     padding: 10px 0;
-    font-size: 50px;
+    font-size: 55px;
     font-family: algerian;
     text-align: center;
 
@@ -39,6 +39,7 @@ header h1 {
     text-align: center;
     border: solid black  ;
     background-color: cadetblue;
+    border-radius: 20px;
 }
 .definition{
     display: none;
