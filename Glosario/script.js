@@ -144,10 +144,167 @@ const palabras = [
         definicion : "A technique for recording, transmitting, and reproducing sounds"
     },
     {
-        ingles : "augmented reality",
+        ingles : "Augmented Reality",
         español: "Realidad aumentada",
         definicion : "It's a technology that combines real-world elements with computer-generated virtual elements in real-time"
     },
+    {
+        ingles : "Authentication",
+        español: "Autentificacion",
+        definicion : "The process of verifying the identity of a user or system."
+    },
+    {
+        ingles : "Autocomplete",
+        español: "Autocompletar",
+        definicion : "A feature that predicts and completes words or phrases in a search or input field."
+    },
+    {
+        ingles : "Automation",
+        español: "Automatizacion",
+        definicion : "The use of technology to perform tasks without human intervention."
+    },
+    {
+        ingles : "Azure",
+        español: "Azure",
+        definicion : "Microsoft's cloud computing platform and services."
+    },
+    {
+        ingles : "Backbone",
+        español: "Backbone",
+        definicion : "The main infrastructure or support system of a network or application."
+    },
+    {
+        ingles : "Back-end",
+        español: "Back-end",
+        definicion : "The server-side of a software application or system."
+    },
+    {
+        ingles : "Binary",
+        español: "Binario",
+        definicion : " A numbering system with only two digits, typically 0 and 1, used in computing."
+    },
+    {
+        ingles : "BIOS",
+        español: "Sistema Basico De Entrada y Salida",
+        definicion : " Basic Input/Output System; firmware used to initialize hardware during the boot process."
+    },
+    {
+        ingles : "Bits",
+        español: "Bites",
+        definicion : "The smallest unit of data in computing, representing a 0 or 1 in the binary numbering system."
+    },
+    {
+        ingles : "Blockchain",
+        español: "Cadena de bloques",
+        definicion : "A decentralized, distributed ledger technology used for secure and transparent transactions."
+    },
+    {
+        ingles : "Bond",
+        español: "Vinculo",
+        definicion : "A connection or link between two or more elements."
+    },
+    {
+        ingles : "Boolean",
+        español: "Booleano",
+        definicion : "A data type with two possible values, typically true or false."
+    },
+    {
+        ingles : "Branch",
+        español: "Rama",
+        definicion : "A distinct line of development within a version control system or software project."
+    },
+    {
+        ingles : "Breackpoint",
+        español: "Punto de interrupcion",
+        definicion : "A designated point in a program's code where execution temporarily stops for debugging."
+    },
+    {
+        ingles : "Broadband",
+        español: "Banda ancha",
+        definicion : " High-speed internet access with a wide bandwidth."
+    },
+    {
+        ingles : "Browser",
+        español: "Explorador",
+        definicion : " A software application used to access and view information on the internet."
+    },
+    {
+        ingles : "Bug",
+        español: "Error",
+        definicion : "An error, flaw, or defect in a software program or system."
+    },
+    {
+        ingles : "C++",
+        español: "C++",
+        definicion : "is a powerful and versatile programming language used to create computer programs, applications, software, and more."
+    },
+    {
+        ingles : "Caché",
+        español: "Cache",
+        definicion : " A temporary storage area that stores frequently accessed data for quick retrieval."
+    },
+    {
+        ingles : "Case",
+        español: "Caso",
+        definicion : "A specific scenario or condition within a program or system."
+    },
+    {
+        ingles : "Chain of responsibility",
+        español: "Cadena de Responsabilidad",
+        definicion : "A design pattern where multiple objects in a chain handle a request, passing it along until it's processed."
+    },
+    {
+        ingles : "Chip",
+        español: "Chip",
+        definicion : "An integrated circuit or semiconductor device used in electronic devices."
+    },
+    {
+        ingles : "Case",
+        español: "Caso",
+        definicion : "It's a technology that combines real-world elements with computer-generated virtual elements in real-time"
+    },
+    {
+        ingles : "Chipset",
+        español: "Conjunto De Chips",
+        definicion : "A set of chips on a motherboard that controls the communication between the CPU and other components."
+    },
+    {
+        ingles : "Class",
+        español: "Clase",
+        definicion : " A blueprint for creating objects in object-oriented programming, defining properties and methods."
+    },
+    {
+        ingles : "Click",
+        español: "Clic",
+        definicion : "The act of pressing a button on a mouse or tapping on a touchscreen"
+    },
+    {
+        ingles : "Client",
+        español: "Cliente",
+        definicion : "A device or application that requests services or resources from a server."
+    },
+    {
+        ingles : "Clone",
+        español: "Clonar",
+        definicion : "To make an identical copy of something, such as a file, repository, or object."
+    },
+    {
+        ingles : "Cloud",
+        español: "Nube",
+        definicion : "A network of remote servers hosted on the internet for storing, managing, and processing data. "
+    },
+    {
+        ingles : "Cloud service",
+        español: "Servicio en la nube",
+        definicion : "A service provided over the internet using cloud computing infrastructure."
+    },
+    {
+        ingles : "Cmd",
+        español: "Simbolo Del Sistema",
+        definicion : "Command Prompt; a command-line interpreter for executing commands in Windows operating systems."
+    },
+
+    
 ]
 
     function mostrarDefinicion(divDefinicion) {
