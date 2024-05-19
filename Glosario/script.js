@@ -234,6 +234,11 @@ const palabras = [
         definicion : "An error, flaw, or defect in a software program or system."
     },
     {
+        ingles : "Builder",
+        español: "Constructor",
+        definicion : "Method in object-oriented programming languages ​​that is called automatically when an instance of a class is created. Typically initializes the state of the object or performs other configuration tasks."
+    },
+    {
         ingles : "C++",
         español: "C++",
         definicion : "is a powerful and versatile programming language used to create computer programs, applications, software, and more."
@@ -303,6 +308,202 @@ const palabras = [
         español: "Simbolo Del Sistema",
         definicion : "Command Prompt; a command-line interpreter for executing commands in Windows operating systems."
     },
+    {
+        ingles : "CMOS",
+        español: "Semiconductor complementario de oxido metalico",
+        definicion : "Complementary Metal-Oxide-Semiconductor, a technology used in the creation of integrated circuits, particularly for the semiconductor chips used in most modern computer processors."
+    },
+    {
+        ingles : "Code",
+        español: "Codigo",
+        definicion : " A set of instructions written in a programming language that a computer can understand and execute to perform a specific task."
+    },
+    {
+        ingles : "Command",
+        español: "Comando",
+        definicion : "A directive given to a computer program or operating system to perform a specific task or function."
+    },
+    {
+        ingles : "Comments",
+        español: "Comentarios",
+        definicion : "Annotations within source code that are ignored by the compiler or interpreter but provide information for humans reading the code to understand its purpose, logic, or usage."
+    },
+    {
+        ingles : "Commit",
+        español: "Confirmar",
+        definicion : "In version control systems, such as Git, to save changes to a repository along with a descriptive message explaining the changes made."
+    },
+    {
+        ingles : "Comparison Operation",
+        español: "Operación de comparación ",
+        definicion : " A binary operation that determines the relationship between two values, such as equality, inequality, or order."
+    },
+    {
+        ingles : "Comparison",
+        español: "Comparación",
+        definicion : "The act of evaluating the similarity or difference between two or more items or values."
+    },
+    {
+        ingles : "Compilation",
+        español: "Compilación",
+        definicion : "The process of translating source code written in a high-level programming language into machine code or bytecode that can be executed by a computer."
+    },
+    {
+        ingles : "Compiler",
+        español: "Compilador",
+        definicion : "A program that translates source code written in a high-level programming language into machine code or bytecode."
+    },
+    {
+        ingles : "Computer Audit",
+        español: "Auditoria Informatica",
+        definicion : "The process of examining and evaluating a computer system's operations, controls, and security measures to ensure compliance with established standards and policies."
+    },
+    {
+        ingles : "Conditionals",
+        español: "Condicionales",
+        definicion : "Statements in programming that execute different actions depending on whether a certain condition evaluates to true or false."
+    },
+    {
+        ingles : "Constants",
+        español: "Constantes",
+        definicion : "Variables whose values do not change during the execution of a program. "
+    },
+    {
+        ingles : "Continue",
+        español: "Continuar",
+        definicion : "A keyword in programming languages used to skip the current iteration of a loop and continue with the next iteration."
+    },
+    {
+        ingles : "Control Panel",
+        español: "Panel De Control",
+        definicion : "A graphical user interface component in an operating system that allows users to configure system settings and preferences."
+    },
+    {
+        ingles : "Cookies",
+        español: "Galletas",
+        definicion : "Small pieces of data stored on a user's computer by a website, typically used to track and store information about the user's browsing activities."
+    },
+    {
+        ingles : "Cooling",
+        español: "Refrigeracion",
+        definicion : "The process of reducing the temperature of computer hardware components to prevent overheating and maintain optimal performance."
+    },
+    {
+        ingles : "CPU Socket",
+        español: "Zocalo de CPU",
+        definicion : "The mechanical component on a computer's motherboard that houses the CPU (central processing unit) and provides electrical connections between the CPU and the motherboard."
+    },
+    {
+        ingles : "Cracker",
+        español: "Galleta",
+        definicion : "A person who attempts to gain unauthorized access to computer systems or networks for malicious purposes."
+    },
+    {
+        ingles : "CRUD",
+        español: "Crear, leer, actualizar y borrar",
+        definicion : " Acronym for Create, Read, Update, Delete, referring to the basic operations performed on data in a database or application."
+    },
+    {
+        ingles : "CSS",
+        español: "Hojas De Estilo en Cascada",
+        definicion : "Cascading Style Sheets, a style sheet language used for describing the presentation of a document written in a markup language like HTML."
+    },
+    {
+        ingles : "Cursor",
+        español: "Cursor",
+        definicion : " A movable indicator on a computer screen that marks the current position for input or output operations."
+    },
+    {
+        ingles : "Cybersecurity",
+        español: "Ciber Seguridad",
+        definicion : "The practice of protecting computer systems, networks, and data from digital attacks, unauthorized access, and other cyber threats."
+    },
+    {
+        ingles : "Cycles",
+        español: "Ciclos",
+        definicion : "A unit of time in computer processing, typically referring to the number of clock cycles required to execute an instruction or perform a task."
+    },
+    {
+        ingles : "DAC",
+        español: "Conversor de señal digital analogica",
+        definicion : "Digital-to-Analog Converter, a device that converts digital signals into analog signals."
+    },
+    {
+        ingles : "Dart",
+        español: "Dart",
+        definicion : "A programming language developed by Google, used for building web, server, desktop, and mobile applications."
+    },
+    {
+        ingles : "Data",
+        español: "Datos",
+        definicion : "Information that is processed, stored, or transmitted by a computer."
+    },
+    {
+        ingles : "Data Structure",
+        español: "Estructura de datos",
+        definicion : "A specialized format for organizing and storing data in a computer system to facilitate efficient access and manipulation."
+    },
+    {
+        ingles : "Database",
+        español: "Base de datos",
+        definicion : " A structured collection of data organized and stored in a computer system, typically for easy access, retrieval, and management."
+    },
+    {
+        ingles : "Debugging",
+        español: "Depuracion",
+        definicion : "The process of identifying and fixing errors, bugs, or defects in software code."
+    },
+    {
+        ingles : "Declarative",
+        español: "Declarativo",
+        definicion : "A programming paradigm that expresses the logic of a computation without specifying its control flow."
+    },
+    {
+        ingles : "Decrement",
+        español: "Decremento",
+        definicion : "A unary operation that decreases the value of a variable by one."
+    },
+    {
+        ingles : "Default",
+        español: "Predeterminado",
+        definicion : " A pre-established setting, value, or option used when no alternative is specified."
+    },
+    {
+        ingles : "Dependency Injection",
+        español: "Inyeccion de dependencias",
+        definicion : "A design pattern in which the dependencies of a component are supplied from the outside rather than created internally."
+    },
+    {
+        ingles : "Deployment",
+        español: "Despliegue",
+        definicion : "The process of making a software application or system available for use in a production environment."
+    },
+    {
+        ingles : "Desing Patterns",
+        español: "Despliegue",
+        definicion : " Reusable solutions to common software design problems that help promote code reuse, flexibility, and maintainability."
+    },
+    {
+        ingles : "Desktop",
+        español: "Escritorio",
+        definicion : "The primary graphical user interface of an operating system, typically displaying icons, windows, and other graphical elements."
+    },
+    {
+        ingles : "Devc",
+        español: "Devc",
+        definicion : "An integrated development environment (IDE) for the C programming language."
+    },
+    {
+        ingles : "Developer",
+        español: "Desarrollador",
+        definicion : "A person who designs, creates, and maintains software applications or systems."
+    },
+    {
+        ingles : "Development environment",
+        español: "Ambiente de desarrollo",
+        definicion : "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+    },
+
 
     
 ]
