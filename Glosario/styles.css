@@ -53,3 +53,9 @@ header h1 {
 .principal{
     display: inline-block;
 }
+#busqueda{
+    background-color: white;
+    padding: 8px;
+    font-size: 15px;
+    width: 20%;
+}
