@@ -511,179 +511,268 @@ const palabras = [
     {
         ingles: "Dialog box",
         español: "Cuadro de dialogo",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A small graphical window that pops up to display information or prompt the user for input within a software application."
     },
     {
         ingles: "Dictionary",
         español: "Diccionario",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A data structure that stores a collection of key-value pairs, where each key is associated with a corresponding value."
     },
     {
         ingles: "Digitize",
         español: "Digitalizar",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "To convert analog information or data into a digital format that can be processed and stored by a computer."
     },
     {
         ingles: "DIMM slot",
         español: "Ranura DIMM",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Dual In-line Memory Module slot; a physical slot on a computer's motherboard used to insert memory modules for RAM (Random Access Memory)."
     },
     {
         ingles: "Distributed programming",
         español: "Programacion distribuida",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Programming paradigm that involves designing and implementing software systems that run on multiple computers or devices connected over a network, typically working together to achieve a common goal."
     },
     {
         ingles: "Documentation",
         español: "Documentacion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Written information or instructions that accompany software or a software project, providing guidance on how to use, configure, or develop the software."
     },
     {
         ingles: "DOM",
         español: "DOM",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Document Object Model; a programming interface for web documents that represents the structure of a web page as a hierarchical tree of objects, allowing scripts to dynamically access and modify the content, structure, and style of the document."
     },
     {
         ingles: "Domain",
         español: "Dominio",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "In the context of the internet, a domain refers to a unique identifier associated with a specific website or network, often represented as a URL (Uniform Resource Locator)."
     },
     {
         ingles: "Double",
         español: "Double",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A data type used in programming languages to represent floating-point numbers with double precision, typically occupying 8 bytes of memory."
     },
 
     {
         ingles: "Download",
         español: "Descargar",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
-    },
-
-    {
-        ingles: "Domain",
-        español: "Dominio",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
-    },
-
-    {
-        ingles: "Domain",
-        español: "Dominio",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "The process of transferring data or files from a remote computer or server to a local computer or device."
     },
 
     {
         ingles: "Drive",
         español: "Drive",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A storage device used to store and retrieve digital data, such as a hard disk drive (HDD), solid-state drive (SSD), or optical disc drive (e.g., CD-ROM or DVD-ROM drive)."
     },
 
     {
         ingles: "Dynamic",
         español: "Dinamico",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Referring to behavior or properties that can change or be modified during runtime, often in response to user input or other external factors."
     },
 
     {
         ingles: "Encapsulation",
         español: "Encapsulamiento",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A fundamental concept in object-oriented programming (OOP) that involves bundling data and methods (functions) that operate on that data into a single unit, known as an object, and restricting access to the object's internal state from outside the object's definition."
     },
 
     {
         ingles: "Encoding",
         español: "Codificacion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: " The process of converting The set of tools, libraries, and configurations used by developers to write, test, and debug software applications.data from one format or representation to another, often used in the context of converting text characters into a binary format for storage or transmission."
     },
 
     {
         ingles: "Encryption",
         español: "Encriptacion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "The process of encoding information or data in such a way that only authorized parties can access it, typically using algorithms and cryptographic techniques to protect the confidentiality and integrity of the data."
     },
 
     {
         ingles: "Enter",
         español: "Enter",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A key on a computer keyboard used to confirm a command or input, often associated with submitting form data or executing a command in a software application."
     },
 
     {
         ingles: "Entity",
         español: "Entidad",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "In the context of databases and data modeling, an entity refers to a distinct object, concept, or thing that is represented in the database and has attributes that describe its properties or characteristics."
     },
 
     {
         ingles: "Enumeration",
         español: "Enumeracion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A data type in programming languages that consists of a set of named values, where each value represents a unique constant within the enumeration."
     },
 
     {
         ingles: "Enviroment variables",
         español: "Variables de entorno",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "Configuration settings or parameters that are part of the operating system or runtime environment and can affect the behavior of software programs and system processes."
     },
 
     {
         ingles: "Ethernet connector",
         español: "Conector ethernet",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: " A physical interface or port on a computer or networking device used to connect to an Ethernet network, typically using an Ethernet cable."
     },
 
     {
         ingles: "Even-driven programming",
         español: "Programacion orientada a obejtos",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A programming paradigm where the flow of the program is determined by events, such as user actions, system notifications, or external inputs, triggering the execution of event handlers or callback functions."
     },
 
     {
         ingles: "Exeption",
         español: "Exepcion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "An abnormal or unexpected condition that occurs during the execution of a program, often indicating an error or problem that prevents the program from continuing normally."
     },
 
     {
         ingles: "Execution",
         español: "Ejecucion",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "The process of running or executing a program, whereby the instructions in the program are processed by the computer's CPU (Central Processing Unit) to perform the desired tasks or operations."
     },
 
     {
         ingles: "Fan",
         español: "Ventilador",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A mechanical device used to circulate air and dissipate heat from computer components, such as the CPU, GPU, and power supply, to prevent overheating and maintain optimal operating temperatures."
     },
 
     {
         ingles: "Field",
         español: "Campo",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A data element or component within a record or data structure, typically representing a single piece of information or attribute."
     },
 
     {
         ingles: "File",
         español: "Archivo",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A collection of data or information stored as a unit on a computer storage device, typically identified by a filename and consisting of one or more contiguous sequences of bytes."
     },
 
     {
         ingles: "Firewall",
         español: "Firewall",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A network security device or software application that monitors and controls incoming and outgoing network traffic based on predetermined security rules, policies, or configurations."
     },
 
     {
         ingles: "Float",
         español: "Float",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "A data type used in programming languages to represent floating-point numbers with single precision, typically occupying 4 bytes of memory."
     },
     {
         ingles: "Flow control",
         español: " Control de flujo",
-        definicion: "The set of tools, libraries, and configurations used by developers to write, test, and debug software applications."
+        definicion: "The process of managing the execution flow or sequence of instructions within a program, often involving decision-making structures, loops, and branching statements to control the program's behavior."
     },
+    {
+        ingles: "Flowchart",
+        español: "Diagrama de flujo",
+        definicion: "A graphical representation of an algorithm or process using symbols and arrows to illustrate the sequence of steps or actions involved."
+    },
+    {
+        ingles: "Flutter",
+        español: "Flutter",
+        definicion: "An open-source UI (User Interface) toolkit developed by Google for building natively compiled applications for mobile, web, and desktop platforms using a single codebase."
+    },
+    {
+        ingles: "Folder",
+        español: "Carpeta",
+        definicion: "A directory or container used to organize and store files and other folders on a computer's filesystem."
+    },
+    {
+        ingles: "Fonts",
+        español: "Fuentes",
+        definicion: "Sets of graphical characters or symbols with a specific design and style used to display text and typography in digital documents, interfaces, and applications."
+    },
+    {
+        ingles: "Fork",
+        español: "Bifurcacion",
+        definicion: "In the context of version control systems like Git, a fork refers to creating a personal copy of a repository (project) hosted on a platform like GitHub, allowing for independent development and experimentation without affecting the original project."
+    },
+    {
+        ingles: "Format",
+        español: "Formatear",
+        definicion: "The arrangement, structure, or layout of data or information in a specified manner, often involving the presentation, organization, or encoding of data according to predefined rules or standards."
+    },
+    {
+        ingles: "Framework",
+        español: "Estructura",
+        definicion: "A structured set of libraries, tools, and conventions that provides a foundation for developing software applications or solutions within a specific programming environment or domain."
+    },
+    {
+        ingles: "Freelancer",
+        español: "Persona de libre dedicacion",
+        definicion: "A self-employed individual who offers services or works on projects for multiple clients or employers on a temporary or contract basis, typically without long-term commitments."
+    },
+    {
+        ingles: "Freeware",
+        español: "Software gratuito",
+        definicion: "Software that is available for use or distribution at no cost, often with limited functionality or licensing restrictions compared to commercial software."
+    },
+    {
+        ingles: "Front-end",
+        español: "Front-end",
+        definicion: "The part of a software application or system that interacts directly with users, typically consisting of user interfaces, presentation layers, and client-side logic."
+    },
+    {
+        ingles: "FTP",
+        español: "Protocolo de Trasferencia de archivos",
+        definicion: "A standard network protocol used for transferring files between a client and a server on a TCP/IP-based network, such as the internet."
+    },
+    {
+        ingles: "Full-stack",
+        español: "Full-stack",
+        definicion: "A term used to describe developers who have expertise in both front-end and back-end technologies, allowing them to work on all layers of a software application or system."
+    },
+    {
+        ingles: "Function",
+        español: "Funcion",
+        definicion: "A self-contained block of code within a program that performs a specific task or operation, often accepting inputs (parameters) and"
+    },
+    {
+        ingles: "Gamepad",
+        español: "Mando",
+        definicion: "A handheld input device used primarily for playing video games on a computer or gaming console, typically featuring buttons, triggers, analog sticks, and directional pads for controlling in-game actions and movements."
+    },
+    {
+        ingles: "Gigabyte",
+        español: "Gigabyte",
+        definicion: "A unit of digital information storage capacity equal to 1,024 megabytes (or approximately one billion bytes), commonly used to quantify the size of computer storage devices or the amount of data transferred over a network."
+    },
+    {
+        ingles: "GitHub",
+        español: "GitHub",
+        definicion: " A web-based platform and service that provides hosting for software development projects using the Git version control system, enabling collaboration, code sharing, and project management features for developers."
+    },
+    {
+        ingles: "Global",
+        español: "Global",
+        definicion: "Refers to a variable, function, or object that is accessible and visible from any part of a program or system, often used to store values or define behavior that needs to be shared and accessed across multiple components or modules."
+    },
+    {
+        ingles: "GPU",
+        español: "Unidad de procesamiento grafico",
+        definicion: "Graphics Processing Unit; a specialized electronic circuit designed to accelerate the rendering of images, graphics, and visual effects in computer applications, particularly in 3D graphics rendering and video playback."
+    },
+    {
+        ingles: "Graphic card",
+        español: "Tarjeta grafica",
+        definicion: "A hardware component installed in a computer system that is responsible for rendering and displaying graphics, images, and visual content on a monitor or display device."
+    },
+    {
+        ingles: "Hacker",
+        español: "Hacker",
+        definicion: "A person who uses technical knowledge and programming skills to gain unauthorized access to computer systems, networks, or data with malicious intent, or to explore and experiment with computer systems and software for educational or constructive purposes."
+    }
+
 ]
 
 function mostrarDefinicion(divDefinicion) {
@@ -693,26 +782,40 @@ function mostrarDefinicion(divDefinicion) {
         divDefinicion.style.display = "none";
     }
 }
-
-function crearDiv2(ingles, español, definicion) {
-    var divPrincipal = document.createElement("div")
-    divPrincipal.classList.add("principal")
-    var boton = document.createElement("button")
-    var divDefinicion = document.createElement("div")
-    divDefinicion.innerHTML = "Traduccion : " + español + "<br>" + definicion
-    divDefinicion.classList.add("definition")
-    divDefinicion.id = "def"
-    boton.textContent = ingles
-    boton.classList.add('word')
-    divPrincipal.appendChild(boton)
-    divPrincipal.appendChild(divDefinicion)
-    document.body.appendChild(divPrincipal)
-    boton.addEventListener("click", function () {
+let cont = 0;
+let contDiv =1;
+let letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+function crearDiv2(ingles, español, definicion,primeraLetra){
+    if(primeraLetra==letras[cont]){
+        if(contDiv == 1){
+            let divLetra = `<div class="letra"><h2>${letras[cont]}</h2></div>`
+            contDiv = 2;
+            document.body.innerHTML += divLetra;
+        }
+        var divPrincipal = document.createElement("div")
+        divPrincipal.classList.add("principal")
+        var boton = document.createElement("button")
+        var divDefinicion = document.createElement("div")
+        divDefinicion.innerHTML = "Traduccion : " + español + "<br>" + definicion
+        divDefinicion.classList.add("definition")
+        divDefinicion.id = "def"
+        boton.textContent = ingles
+        boton.classList.add('word')
+        divPrincipal.appendChild(boton)
+        divPrincipal.appendChild(divDefinicion)
+        document.body.appendChild(divPrincipal)
+        boton.addEventListener("click", function () {
         mostrarDefinicion(divDefinicion)
-    })
+        })
+    }else{
+        contDiv = 1
+        cont++;
+    }
+    
 }
 palabras.forEach(function (objeto) {
-    crearDiv2(objeto.ingles, objeto.español, objeto.definicion)
+    var primeraLetra = objeto.ingles.charAt(0);
+    crearDiv2(objeto.ingles, objeto.español, objeto.definicion,primeraLetra)
 })
 
 // Agregar el evento 'input' al campo de entrada
