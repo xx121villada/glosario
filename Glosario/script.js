@@ -771,8 +771,462 @@ const palabras = [
         ingles: "Hacker",
         español: "Hacker",
         definicion: "A person who uses technical knowledge and programming skills to gain unauthorized access to computer systems, networks, or data with malicious intent, or to explore and experiment with computer systems and software for educational or constructive purposes."
-    }
-
+    },
+    {
+        ingles: "Hard drive",
+        español: "Disco duro",
+        definicion: "Device used to store and retrieve digital information using rotating disks coated with magnetic material."
+    },
+    {
+        ingles: "Hardware",
+        español: "Hardware",
+        definicion: "Physical components of a computer system, including the central processing unit, memory, and peripherals."
+    },
+    {
+        ingles: "HDMI",
+        español: "HDMI",
+        definicion: "Interface for transmitting high-definition video and audio data between devices."
+    },
+    {
+        ingles: "Hibernation",
+        español: "Hibernación",
+        definicion: "Power-saving state where a computer saves the contents of its RAM to a hard drive before powering down."
+    },
+    {
+        ingles: "Hypervisor",
+        español: "Hipervisor",
+        definicion: "Software layer that allows multiple operating systems to share a single hardware host."
+    },
+    {
+        ingles: "Host",
+        español: "Host",
+        definicion: "Computer or other device that provides data, services, or resources to other devices on a network."
+    },
+    {
+        ingles: "Hosting",
+        español: "Hosting",
+        definicion: "Service that allows organizations and individuals to post a website or web page onto the Internet."
+    },
+    {
+        ingles: "HTML",
+        español: "HTML",
+        definicion: "Standard markup language for creating web pages and web applications."
+    },
+    {
+        ingles: "Hyperlink",
+        español: "Hipervínculo",
+        definicion: "Reference in a digital document that allows users to navigate to another document or resource."
+    },
+    {
+        ingles: "Icon",
+        español: "Icono",
+        definicion: "Graphical representation of a program, file, or function, typically found on a computer desktop or interface."
+    },
+    {
+        ingles: "ID",
+        español: "ID",
+        definicion: "Unique identifier used to distinguish a specific element or entity in programming and databases."
+    },
+    {
+        ingles: "IDE",
+        español: "IDE",
+        definicion: "Integrated Development Environment; a software application that provides comprehensive facilities to computer programmers for software development."
+    },
+    {
+        ingles: "Imperative",
+        español: "Imperativo",
+        definicion: "Programming paradigm that uses statements to change a program's state, emphasizing how to perform tasks."
+    },
+    {
+        ingles: "Implementation",
+        español: "Implementación",
+        definicion: "Process of executing a plan or algorithm to achieve a specific function or operation in software development."
+    },
+    {
+        ingles: "Import",
+        español: "Importar",
+        definicion: "Process of bringing or incorporating external resources, modules, or data into a program or project."
+    },
+    {
+        ingles: "Increment",
+        español: "Incremento",
+        definicion: "Increase in value or quantity, often used in programming to denote adding a fixed value to a variable."
+    },
+    {
+        ingles: "Indexing",
+        español: "Indexación",
+        definicion: "Organizing and optimizing data storage to quickly retrieve specific information, often used in databases and search algorithms."
+    },
+    {
+        ingles: "Inheritance",
+        español: "Herencia",
+        definicion: "OOP concept where a class inherits properties and behaviors from another class, promoting code reuse and hierarchy."
+    },
+    {
+        ingles: "Init",
+        español: "Iniciar",
+        definicion: "To start or initialize a process, program, or operation, typically used in software development."
+    },
+    {
+        ingles: "Instances",
+        español: "Instancias",
+        definicion: "Particular occurrences or realizations of a class in object-oriented programming, representing individual objects."
+    },
+    {
+        ingles: "Int",
+        español: "Int",
+        definicion: "Data type representing whole numbers in programming languages, typically used for integer values."
+    },
+    {
+        ingles: "Integration",
+        español: "Integración",
+        definicion: "Combining or merging different components, systems, or software to work together seamlessly."
+    },
+    {
+        ingles: "Interfaces",
+        español: "Interfaces",
+        definicion: "A point of interaction between software components or systems, defining how they communicate and interoperate."
+    },
+    {
+        ingles: "Internet",
+        español: "Internet",
+        definicion: "Global network of interconnected computers and devices, facilitating communication and information exchange."
+    },
+    {
+        ingles: "Interpreter",
+        español: "Intérprete",
+        definicion: "Program that directly executes code written in a high-level programming language, translating and running it line by line."
+    },
+    {
+        ingles: "Intranet",
+        español: "Intranet",
+        definicion: "Private network within an organization that uses Internet technologies to share information and resources."
+    },
+    {
+        ingles: "IP",
+        español: "IP",
+        definicion: "Internet Protocol; unique address assigned to each device connected to a computer network, allowing communication."
+    },
+    {
+        ingles: "Iteration",
+        español: "Iteración",
+        definicion: "Repetition of a process or cycle in a program, often used for looping and executing code multiple times."
+    },
+    {
+        ingles: "Iterative",
+        español: "Iterativo",
+        definicion: "Process or method that involves repeating a sequence of steps or operations, typically refining or improving with each repetition."
+    },
+    {
+        ingles: "Java",
+        español: "Java",
+        definicion: "High-level, object-oriented programming language known for its platform independence and extensive libraries."
+    },
+    {
+        ingles: "JavaScript",
+        español: "JavaScript",
+        definicion: "High-level, dynamic programming language primarily used for client-side web development, enabling interactive web pages."
+    },
+    {
+        ingles: "Jumper",
+        español: "Jumper",
+        definicion: "Small device or connector used to close, open, or bypass part of an electronic circuit, typically used in hardware configuration."
+    },
+    {
+        ingles: "Kernel",
+        español: "Kernel",
+        definicion: "Central component of an operating system, responsible for managing system resources and providing essential services."
+    },
+    {
+        ingles: "Keyboard",
+        español: "Teclado",
+        definicion: "Input device consisting of keys used to input data and commands into a computer or other device."
+    },
+    {
+        ingles: "Kilobyte",
+        español: "Kilobyte",
+        definicion: "Unit of digital information storage equal to 1,024 bytes, commonly used to measure file sizes and memory capacity."
+    },
+    {
+        ingles: "Language",
+        español: "Lenguaje",
+        definicion: "Systematic means of communication, typically consisting of words, symbols, or gestures, used by humans and computers."
+    },
+    {
+        ingles: "Laravel",
+        español: "Laravel",
+        definicion: "Popular open-source PHP web framework known for its elegant syntax and powerful features, used for building web applications."
+    },
+    {
+        ingles: "Layout",
+        español: "Maquetación",
+        definicion: "Arrangement or organization of elements in a graphical interface or design, determining the visual structure and presentation."
+    },
+    {
+        ingles: "LGA",
+        español: "LGA",
+        definicion: "Land Grid Array; type of integrated circuit packaging where the connection pins are located on the socket rather than the integrated circuit itself."
+    },
+    {
+        ingles: "Libraries",
+        español: "Librerías",
+        definicion: "Collection of pre-written code modules or functions that can be used to extend the functionality of a programming language or framework."
+    },
+    {
+        ingles: "Library",
+        español: "Biblioteca",
+        definicion: "Collection of resources, such as books, articles, or multimedia materials, organized for reference or borrowing."
+    },
+    {
+        ingles: "Link",
+        español: "Enlace",
+        definicion: "Connection between two resources, such as web pages or files, allowing navigation or access between them."
+    },
+    {
+        ingles: "List",
+        español: "Lista",
+        definicion: "Ordered or unordered collection of items or elements, often used in programming to store and manipulate data."
+    },
+    {
+        ingles: "Live server",
+        español: "Servidor en vivo",
+        definicion: "Server environment that is actively running and serving requests, often used for web development and testing."
+    },
+    {
+        ingles: "Local",
+        español: "Local",
+        definicion: "Pertaining to or located in a particular area or environment, often used to refer to resources or data stored on a local device or network."
+    },
+    {
+        ingles: "Login",
+        español: "Iniciar Sesión",
+        definicion: "Process of accessing a computer system, network, or application by providing credentials, typically a username and password."
+    },
+    {
+        ingles: "Logging",
+        español: "Registro",
+        definicion: "Process of recording events, actions, or messages to a log file for monitoring, troubleshooting, or analysis purposes."
+    },
+    {
+        ingles: "Logical",
+        español: "Lógico",
+        definicion: "Related to or based on logic, rational reasoning, or consistent principles."
+    },
+    {
+        ingles: "Logical operation",
+        español: "Operación lógica",
+        definicion: "Process or action performed on logical values or variables, typically involving logical operators such as AND, OR, and NOT."
+    },
+    {
+        ingles: "Maintenance",
+        español: "Mantenimiento",
+        definicion: "Process of preserving, repairing, or keeping something in proper condition, often used in software development and system administration."
+    },
+    {
+        ingles: "Malware",
+        español: "Malware",
+        definicion: "Software designed to disrupt, damage, or gain unauthorized access to computer systems, networks, or data, often with malicious intent such as theft, surveillance, or extortion."
+    },
+    {
+        ingles: "Manual input",
+        español: "Entrada manual",
+        definicion: "Input or data entry performed directly by a human user, typically through physical interaction with a device such as a keyboard, mouse, or touchscreen."
+    },
+    {
+        ingles: "Map",
+        español: "Mapa",
+        definicion: "Visual representation or diagram showing the spatial arrangement or relationship between elements, locations, or concepts."
+    },
+    {
+        ingles: "Matrix",
+        español: "Matriz",
+        definicion: "Data structure consisting of rows and columns, used for organizing and manipulating data in mathematical, statistical, or computational contexts."
+    },
+    {
+        ingles: "Megabyte",
+        español: "Megabyte",
+        definicion: "Unit of digital information storage equal to 1,024 kilobytes or approximately one million bytes, commonly used to measure file sizes and memory capacity."
+    },
+    {
+        ingles: "Memory",
+        español: "Memoria",
+        definicion: "Internal storage component of a computer or device used to store data and instructions temporarily or permanently for processing."
+    },
+    {
+        ingles: "Menu",
+        español: "Menú",
+        definicion: "List of options or commands displayed on a computer screen or interface, typically organized hierarchically for navigation or selection."
+    },
+    {
+        ingles: "Methods",
+        español: "Métodos",
+        definicion: "Procedures or functions associated with an object or class in object-oriented programming, used to perform specific tasks or operations."
+    },
+    {
+        ingles: "Microprocessor",
+        español: "Microprocesador",
+        definicion: "Integrated circuit responsible for executing instructions and processing data in a computer or electronic device, often referred to as the central processing unit (CPU)."
+    },
+    {
+        ingles: "Microservices",
+        español: "Microservicios",
+        definicion: "Architectural approach to software development where applications are divided into small, independently deployable services, each responsible for specific tasks or functions."
+    },
+    {
+        ingles: "Minimize",
+        español: "Minimizar",
+        definicion: "Action of reducing the size, scope, or presence of something, often used in computing to refer to the act of minimizing a window or application."
+    },
+    {
+        ingles: "Mixed reality",
+        español: "Realidad mixta",
+        definicion: "Integration of virtual and augmented reality technologies to create immersive experiences that blend physical and digital environments."
+    },
+    {
+        ingles: "Mockups",
+        español: "Maquetas",
+        definicion: "Visual representation or prototype of a design or product, often used in software development to demonstrate functionality and user interface."
+    },
+    {
+        ingles: "Modem",
+        español: "Módem",
+        definicion: "Device that modulates and demodulates signals for transmitting data over communication channels, typically used to connect to the internet or other networks."
+    },
+    {
+        ingles: "Modular",
+        español: "Modular",
+        definicion: "Characterized by or based on the use of separate modules or components that can be independently replaced, upgraded, or modified."
+    },
+    {
+        ingles: "Motherboard",
+        español: "Placa base",
+        definicion: "Main circuit board of a computer, containing the central processing unit (CPU), memory, expansion slots, and other essential components."
+    },
+    {
+        ingles: "Mouse",
+        español: "Ratón",
+        definicion: "Input device used to interact with graphical user interfaces by moving a cursor or pointer on a screen and selecting items or performing actions."
+    },
+    {
+        ingles: "Multicasting",
+        español: "Multidifusión",
+        definicion: "Communication method where a single data transmission is received by multiple recipients simultaneously, often used in computer networks."
+    },
+    {
+        ingles: "Multimeter",
+        español: "Multímetro",
+        definicion: "Electronic measuring instrument used to measure various electrical quantities such as voltage, current, and resistance."
+    },
+    {
+        ingles: "NetBeans",
+        español: "NetBeans",
+        definicion: "Integrated development environment (IDE) primarily used for Java development, providing tools and features for coding, debugging, and testing."
+    },
+    {
+        ingles: "Network card",
+        español: "Tarjeta de red",
+        definicion: "Hardware component that enables a computer or device to connect to a network and communicate with other devices, often referred to as a network adapter or NIC."
+    },
+    {
+        ingles: "Network",
+        español: "Red",
+        definicion: "Interconnected system of computers, devices, or nodes that communicate and share resources such as data, services, and applications."
+    },
+    {
+        ingles: "Node.js",
+        español: "Node.js",
+        definicion: "JavaScript runtime environment based on Chrome's V8 engine, designed to allow the creation of scalable and high-performance network applications."
+    },
+    {
+        ingles: "No-primitives",
+        español: "No primitivos",
+        definicion: "Technique or design approach in software development that avoids the use of primitive data types in favor of more complex and expressive abstractions."
+    },
+    {
+        ingles: "Northbridge",
+        español: "Puente norte",
+        definicion: "Integrated circuit responsible for connecting the central processing unit (CPU) to high-speed components such as RAM and the graphics card."
+    },
+    {
+        ingles: "Not",
+        español: "Not",
+        definicion: "Logical operator that negates the value of a Boolean expression, returning true if the expression is false and false if the expression is true."
+    },
+    {
+        ingles: "Object",
+        español: "Objeto",
+        definicion: "Instance of a class in object-oriented programming that encapsulates data and functionality, representing a real-world or abstract entity."
+    },
+    {
+        ingles: "Object-oriented-programming",
+        español: "Programación orientada a objetos",
+        definicion: "Programming paradigm based on the concept of classes and objects, where software entities are modeled as objects with attributes and methods."
+    },
+    {
+        ingles: "Operating manual",
+        español: "Manual de operación",
+        definicion: "Document that provides detailed instructions on how to use, maintain, or troubleshoot a device, system, or software."
+    },
+    {
+        ingles: "or",
+        español: "O",
+        definicion: "Logical operator that returns true if at least one of the compared expressions is true, and false if all expressions are false."
+    },
+    {
+        ingles: "Oracle",
+        español: "Oracle",
+        definicion: "Technology company that offers a wide range of database products and services, enterprise software, and cloud computing systems."
+    },
+    {
+        ingles: "Oscilloscope",
+        español: "Osciloscopio",
+        definicion: "Electronic measurement instrument used to visualize and analyze electrical signals in the form of waves over time."
+    },
+    {
+        ingles: "Overclocking",
+        español: "Overcloking",
+        definicion: "Process of increasing the operating speed of a hardware component, such as the CPU or GPU, beyond the manufacturer's nominal specifications."
+    },
+    {
+        ingles: "Overlay",
+        español: "Superposición",
+        definicion: "Technique of superimposing images, graphics, or visual elements onto an existing image or screen to provide additional information or enhance the user experience."
+    },
+    {
+        ingles: "Parallel Programming",
+        español: "Programación paralela",
+        definicion: "Technique of writing computer programs that can execute multiple tasks simultaneously by leveraging the parallel processing capability of systems."
+    },
+    {
+        ingles: "Parameter",
+        español: "Parámetro",
+        definicion: "Variable used to pass information to a function or method, which acts as input for the operation and can be modified or processed by the code."
+    },
+    {
+        ingles: "Password",
+        español: "Contraseña",
+        definicion: "Sequence of characters used to authenticate a user's identity and provide secure access to an account, system, or protected resource."
+    },
+    {
+        ingles: "PCI slot",
+        español: "Ranura PCI",
+        definicion: "Expansion connector used to connect expansion cards such as network cards, sound cards, and graphics cards to a computer motherboard."
+    },
+    {
+        ingles: "PCIE slot",
+        español: "Ranura PCIe",
+        definicion: "Type of high-speed expansion slot used to connect high-performance peripheral devices such as graphics cards and SSD storage drives to a motherboard."
+    },
+    {
+        ingles: "Performance",
+        español: "Rendimiento",
+        definicion: "Measure of the efficiency, speed, or execution capability of a system, program, or device, usually related to the amount of work done in a given period of time."
+    },
+    {
+        ingles: "Peripherals",
+        español: "Periféricos",
+        definicion: "Devices connected to a computer or system that extend its input, output, or storage capabilities, such as keyboards, mice, printers, and disk drives."
+    },
 ]
 
 function mostrarDefinicion(divDefinicion) {
