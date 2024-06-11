@@ -1,8 +1,6 @@
 // Obtener el campo de entrada por su ID
 const inputBusqueda = document.getElementById('busqueda');
 
-
-
 const palabras = [
     {
         ingles: "Abstract",
@@ -1226,16 +1224,8 @@ const palabras = [
         ingles: "Peripherals",
         español: "Periféricos",
         definicion: "Devices connected to a computer or system that extend its input, output, or storage capabilities, such as keyboards, mice, printers, and disk drives."
-    },
-]
-
-function mostrarDefinicion(divDefinicion) {
-    if (divDefinicion.style.display === "none") {
-        divDefinicion.style.display = "block";
-    } else {
-        divDefinicion.style.display = "none";
     }
-}
+]
 let cont = 0;
 let contDiv =1;
 let letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -1266,6 +1256,14 @@ function crearDiv2(ingles, español, definicion,primeraLetra){
         cont++;
     }
     
+}
+
+function mostrarDefinicion(divDefinicion) {
+    if (divDefinicion.style.display === "none") {
+        divDefinicion.style.display = "block";
+    } else {
+        divDefinicion.style.display = "none";
+    }
 }
 palabras.forEach(function (objeto) {
     var primeraLetra = objeto.ingles.charAt(0);
