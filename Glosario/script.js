@@ -1166,7 +1166,7 @@ const palabras = [
         definicion: "Document that provides detailed instructions on how to use, maintain, or troubleshoot a device, system, or software."
     },
     {
-        ingles: "or",
+        ingles: "Or",
         español: "O",
         definicion: "Logical operator that returns true if at least one of the compared expressions is true, and false if all expressions are false."
     },
@@ -1225,38 +1225,7 @@ const palabras = [
         español: "Periféricos",
         definicion: "Devices connected to a computer or system that extend its input, output, or storage capabilities, such as keyboards, mice, printers, and disk drives."
     }
-]
-let cont = 0;
-let contDiv =1;
-let letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-function crearDiv2(ingles, español, definicion,primeraLetra){
-    if(primeraLetra==letras[cont]){
-        if(contDiv == 1){
-            let divLetra = `<div class="letra"><h2>${letras[cont]}</h2></div>`
-            contDiv = 2;
-            document.body.innerHTML += divLetra;
-        }
-        var divPrincipal = document.createElement("div")
-        divPrincipal.classList.add("principal")
-        var boton = document.createElement("button")
-        var divDefinicion = document.createElement("div")
-        divDefinicion.innerHTML = "Traduccion : " + español + "<br>" + definicion
-        divDefinicion.classList.add("definition")
-        divDefinicion.id = "def"
-        boton.textContent = ingles
-        boton.classList.add('word')
-        divPrincipal.appendChild(boton)
-        divPrincipal.appendChild(divDefinicion)
-        document.body.appendChild(divPrincipal)
-        boton.addEventListener("click", function () {
-        mostrarDefinicion(divDefinicion)
-        })
-    }else{
-        contDiv = 1
-        cont++;
-    }
-    
-}
+];
 
 function mostrarDefinicion(divDefinicion) {
     if (divDefinicion.style.display === "none") {
@@ -1265,31 +1234,68 @@ function mostrarDefinicion(divDefinicion) {
         divDefinicion.style.display = "none";
     }
 }
+
+let cont = 0;
+let contDiv = 1;
+const letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+function crearDiv2(ingles, español, definicion, primeraLetra) {
+    if (primeraLetra === letras[cont]) {
+        if (contDiv === 1) {
+            const divLetra = document.createElement('div');
+            divLetra.classList.add('letra');
+            divLetra.innerHTML = `<h2>${letras[cont]}</h2>`;
+            document.body.appendChild(divLetra);
+            contDiv = 2;
+        }
+        const divPrincipal = document.createElement("div");
+        divPrincipal.classList.add("principal");
+        const boton = document.createElement("button");
+        const divDefinicion = document.createElement("div");
+        divDefinicion.innerHTML = "Traducción: " + español + "<br>" + definicion;
+        divDefinicion.classList.add("definition");
+        divDefinicion.style.display = "none"; // Inicialmente oculto
+        boton.textContent = ingles;
+        boton.classList.add('word');
+        divPrincipal.appendChild(boton);
+        divPrincipal.appendChild(divDefinicion);
+        document.body.appendChild(divPrincipal);
+        boton.addEventListener("click", function () {
+            mostrarDefinicion(divDefinicion);
+        });
+    } else {
+        contDiv = 1;
+        cont++;
+    }
+}
+
 palabras.forEach(function (objeto) {
-    var primeraLetra = objeto.ingles.charAt(0);
-    crearDiv2(objeto.ingles, objeto.español, objeto.definicion,primeraLetra)
-})
+    const primeraLetra = objeto.ingles.charAt(0);
+    crearDiv2(objeto.ingles, objeto.español, objeto.definicion, primeraLetra);
+});
 
-// Agregar el evento 'input' al campo de entrada
-inputBusqueda.addEventListener('input', function () {
-    const terminoBusqueda = this.value.toLowerCase();
-    // Seleccionar todos los elementos con la clase '.principal'
-    const divsPalabras = document.querySelectorAll('.principal');
+// Agregar el evento 'input' al campo de entrada después de que el DOM esté completamente cargado
+window.addEventListener('DOMContentLoaded', function () {
+    inputBusqueda.addEventListener('input', function () {
+        const terminoBusqueda = this.value.toLowerCase();
+        // Seleccionar todos los elementos con la clase '.principal'
+        const divsPalabras = document.querySelectorAll('.principal');
 
-    divsPalabras.forEach(div => {
-        // Seleccionar el primer elemento con la clase '.word' dentro del 'div' y guardarlo en 'boton'
-        const boton = div.querySelector('.word');
-        const textoBoton = boton.textContent.toLowerCase();
+        divsPalabras.forEach(div => {
+            // Seleccionar el primer elemento con la clase '.word' dentro del 'div' y guardarlo en 'boton'
+            const boton = div.querySelector('.word');
+            const textoBoton = boton.textContent.toLowerCase();
 
-        if (textoBoton.includes(terminoBusqueda)) {
-            div.style.display = 'block';
-        } else {
-            div.style.display = 'none';
+            if (textoBoton.includes(terminoBusqueda)) {
+                div.style.display = 'block';
+            } else {
+                div.style.display = 'none';
+            }
+        });
+
+        // Si el campo de entrada está vacío, recargar la página
+        if (this.value === '') {
+            location.reload();
         }
     });
-
-    // Si el campo de entrada está vacío, recargar la página
-    if (this.value === '') {
-        location.reload();
-    }
 });
