@@ -1224,6 +1224,381 @@ const palabras = [
         ingles: "Peripherals",
         español: "Periféricos",
         definicion: "Devices connected to a computer or system that extend its input, output, or storage capabilities, such as keyboards, mice, printers, and disk drives."
+    },
+    {
+        ingles: "Phishing",
+        español: "Phishing",
+        definicion: "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in electronic communications."
+    },
+    {
+        ingles: "Pin",
+        español: "Pin",
+        definicion: "A personal identification number used for secure access to systems or data."
+    },
+    {
+        ingles: "Pirate",
+        español: "Pirata",
+        definicion: "An individual who illegally copies, distributes, or uses software without proper authorization."
+    },
+    {
+        ingles: "Pixel",
+        español: "Pixel",
+        definicion: "The smallest unit of a digital image or display, representing a single point in the image."
+    },
+    {
+        ingles: "Plug-ins",
+        español: "Plug-ins",
+        definicion: "Software components that add specific capabilities to a larger software application, enabling customization and extension."
+    },
+    {
+        ingles: "Polymorphism",
+        español: "Polimorfismo",
+        definicion: "A programming language feature that allows functions or methods to process objects differently based on their data type or class."
+    },
+    {
+        ingles: "Portability",
+        español: "Portabilidad",
+        definicion: "The ability of software to be transferred from one environment or platform to another with minimal modifications."
+    },
+    {
+        ingles: "Power supply",
+        español: "Fuente de alimentación",
+        definicion: "A hardware component that provides electrical power to a computer or other device."
+    },
+    {
+        ingles: "Primitives",
+        español: "Primitivos",
+        definicion: "Basic data types provided by a programming language as building blocks for data manipulation."
+    },
+    {
+        ingles: "Print",
+        español: "Imprimir",
+        definicion: "A function or command used to display text or other output in a programming environment, or to produce a physical copy on paper."
+    },
+    {
+        ingles: "Printer",
+        español: "Impresora",
+        definicion: "A peripheral device that converts digital documents into physical printed copies."
+    },
+    {
+        ingles: "Procedural",
+        español: "Procedual",
+        definicion: "A programming paradigm based on the concept of procedure calls, where statements are structured into procedures or functions."
+    },
+    {
+        ingles: "Process",
+        español: "Proceso",
+        definicion: "An instance of a program that is being executed, including its current state and allocated system resources."
+    },
+    {
+        ingles: "Processor",
+        español: "Procesador",
+        definicion: "The central processing unit (CPU) of a computer, responsible for interpreting and executing instructions from software."
+    },
+    {
+        ingles: "Profile",
+        español: "Perfil",
+        definicion: "A set of user preferences and settings stored by a software application to customize the user experience."
+    },
+    {
+        ingles: "Programming paradigm",
+        español: "Paradigma de programación",
+        definicion: "A fundamental style or approach to programming, such as procedural, object-oriented, or functional programming."
+    },
+    {
+        ingles: "Project manager",
+        español: "Project manager",
+        definicion: "A professional responsible for planning, executing, and closing projects, ensuring that goals and deadlines are met."
+    },
+    {
+        ingles: "Prototype",
+        español: "Prototipo",
+        definicion: "An initial or preliminary version of a system or component used to demonstrate concepts and test functionality."
+    },
+    {
+        ingles: "Proxy",
+        español: "Proxy",
+        definicion: "A server that acts as an intermediary for requests from clients seeking resources from other servers, often used for anonymity or security."
+    },
+    {
+        ingles: "Pseudocode",
+        español: "Seudocódigo",
+        definicion: "A high-level description of an algorithm or program written in a form that resembles code but is meant for human reading."
+    },
+    {
+        ingles: "Pseudocode",
+        español: "Pseudocodigo",
+        definicion: "A high-level description of an algorithm or program written in a form that resembles code but is meant for human reading."
+    },
+    {
+        ingles: "Public",
+        español: "Public",
+        definicion: "An access modifier in programming that allows a member of a class to be accessible from any other code."
+    },
+    {
+        ingles: "Pull",
+        español: "Pull",
+        definicion: "A method in version control systems where changes are fetched from a remote repository to the local repository."
+    },
+    {
+        ingles: "Push",
+        español: "Push",
+        definicion: "A method in version control systems where changes are sent from the local repository to a remote repository."
+    },
+    {
+        ingles: "RAID card",
+        español: "Tarjeta RAID",
+        definicion: "A hardware component that manages Redundant Array of Independent Disks (RAID) configurations for data storage."
+    },
+    {
+        ingles: "RAM",
+        español: "RAM",
+        definicion: "Random Access Memory, a type of volatile memory used for temporary data storage while a computer is running."
+    },
+    {
+        ingles: "RAM memory",
+        español: "Memoria RAM",
+        definicion: "Random Access Memory, a type of volatile memory used for temporary data storage while a computer is running."
+    },
+    {
+        ingles: "Ranura PCIe",
+        español: "Ranura PCIe",
+        definicion: "A high-speed interface for connecting peripheral devices to a computer's motherboard."
+    },
+    {
+        ingles: "React",
+        español: "React",
+        definicion: "A JavaScript library for building user interfaces, particularly for single-page applications."
+    },
+    {
+        ingles: "Regular expressions",
+        español: "Expresiones regulares",
+        definicion: "Sequences of characters that define a search pattern, typically for use in pattern matching with strings."
+    },
+    {
+        ingles: "Remote",
+        español: "Remoto",
+        definicion: "Accessing or managing a computer, system, or network from a distant location."
+    },
+    {
+        ingles: "Repository",
+        español: "Repositorio",
+        definicion: "A central place where data is stored and managed, often used in version control systems."
+    },
+    {
+        ingles: "Requirements",
+        español: "Requerimientos",
+        definicion: "Specifications of what a system should do, including functional and non-functional aspects."
+    },
+    {
+        ingles: "Robotics",
+        español: "Robótica",
+        definicion: "The branch of technology that deals with the design, construction, operation, and application of robots."
+    },
+    {
+        ingles: "SATA",
+        español: "SATA",
+        definicion: "Serial ATA, an interface used to connect mass storage devices like hard drives and solid-state drives to a computer."
+    },
+    {
+        ingles: "Scanner",
+        español: "Escáner",
+        definicion: "A device that converts physical documents into digital format."
+    },
+    {
+        ingles: "Scrum",
+        español: "Scrum",
+        definicion: "An agile framework for managing complex knowledge work, particularly in software development."
+    },
+    {
+        ingles: "SDK",
+        español: "SDK",
+        definicion: "Software Development Kit, a collection of tools, libraries, and documentation for developing software applications."
+    },
+    {
+        ingles: "Search",
+        español: "Búsqueda",
+        definicion: "The process of finding specific data or information within a larger set, often using algorithms."
+    },
+    {
+        ingles: "Server",
+        español: "Servidor",
+        definicion: "A computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network."
+    },
+    {
+        ingles: "Software",
+        español: "Software",
+        definicion: "Programs and other operating information used by a computer."
+    },
+    {
+        ingles: "Speech recognition",
+        español: "Reconocimiento de voz",
+        definicion: "The ability of a machine or program to identify and respond to the sounds produced in human speech."
+    },
+    {
+        ingles: "SQL injection",
+        español: "Inyección SQL",
+        definicion: "A code injection technique used to attack data-driven applications by inserting malicious SQL statements into an entry field."
+    },
+    {
+        ingles: "SSD",
+        español: "SSD",
+        definicion: "Solid State Drive, a type of mass storage device similar to a hard disk drive but faster and more reliable."
+    },
+    {
+        ingles: "Stack trace",
+        español: "Stack trace",
+        definicion: "A report of the active stack frames at a certain point in time during the execution of a program."
+    },
+    {
+        ingles: "State",
+        español: "Estado",
+        definicion: "A condition or situation of a system or component at a specific time."
+    },
+    {
+        ingles: "Static",
+        español: "Estático",
+        definicion: "Pertaining to a state that does not change."
+    },
+    {
+        ingles: "Stored data",
+        español: "Datos almacenados",
+        definicion: "Data that is stored and retained for later use."
+    },
+    {
+        ingles: "String",
+        español: "Cadena",
+        definicion: "A sequence of characters, typically used to represent text."
+    },
+    {
+        ingles: "Sublime Text",
+        español: "Sublime Text",
+        definicion: "A popular text editor used for writing code."
+    },
+    {
+        ingles: "Switch",
+        español: "Interruptor",
+        definicion: "A device for making and breaking the connection in an electric circuit."
+    },
+    {
+        ingles: "Template method",
+        español: "Método plantilla",
+        definicion: "A design pattern that defines the program skeleton of an algorithm in a method, deferring some steps to subclasses."
+    },
+    {
+        ingles: "Terabyte",
+        español: "Terabyte",
+        definicion: "A unit of information equal to one trillion bytes."
+    },
+    {
+        ingles: "Terminal",
+        español: "Terminal",
+        definicion: "A device or program for input and output of data, typically used in a command-line interface."
+    },
+    {
+        ingles: "Testing",
+        español: "Testeo",
+        definicion: "The process of executing a program with the intent of finding errors."
+    },
+    {
+        ingles: "Trojan",
+        español: "Troyano",
+        definicion: "A type of malware disguised as legitimate software."
+    },
+    {
+        ingles: "Type of data",
+        español: "Tipo de datos",
+        definicion: "A classification of data that tells the compiler or interpreter how the programmer intends to use the data."
+    },
+    {
+        ingles: "UI (Interfaz de usuario)",
+        español: "Interfaz de usuario (UI)",
+        definicion: "The space where interactions between humans and machines occur."
+    },
+    {
+        ingles: "Unit testing",
+        español: "Pruebas unitarias",
+        definicion: "A type of software testing where individual units or components of a software are tested."
+    },
+    {
+        ingles: "Upload",
+        español: "Subir",
+        definicion: "To transfer data from one computer system to another, typically to a server."
+    },
+    {
+        ingles: "Usability",
+        español: "Usabilidad",
+        definicion: "The ease of use and learnability of a human-made object or tool."
+    },
+    {
+        ingles: "User manual",
+        español: "Manual de usuario",
+        definicion: "A document that provides instructions on how to use a particular system or product."
+    },
+    {
+        ingles: "Variables",
+        español: "Variables",
+        definicion: "Storage locations paired with an associated symbolic name, which contain some known or unknown quantity of information referred to as a value."
+    },
+    {
+        ingles: "Vector",
+        español: "Vector",
+        definicion: "An array with a single dimension."
+    },
+    {
+        ingles: "Version control",
+        español: "Control de versiones",
+        definicion: "A system that records changes to a file or set of files over time so that you can recall specific versions later."
+    },
+    {
+        ingles: "Video card",
+        español: "Tarjeta de video",
+        definicion: "A hardware component that generates and outputs images to a display."
+    },
+    {
+        ingles: "Virtual reality",
+        español: "Realidad virtual",
+        definicion: "A simulated experience that can be similar to or completely different from the real world."
+    },
+    {
+        ingles: "Virus",
+        español: "Virus",
+        definicion: "A type of malicious software program that, when executed, replicates by inserting copies of itself into other computer programs, data files, or the boot sector of the hard drive."
+    },
+    {
+        ingles: "Visual Studio",
+        español: "Visual Studio",
+        definicion: "An integrated development environment (IDE) from Microsoft."
+    },
+    {
+        ingles: "Voltage",
+        español: "Voltaje",
+        definicion: "An electromotive force or potential difference expressed in volts."
+    },
+    {
+        ingles: "Webcam",
+        español: "Cámara web",
+        definicion: "A video camera that inputs to a computer connected to the Internet, so that its images can be viewed by Internet users."
+    },
+    {
+        ingles: "Website",
+        español: "Página web",
+        definicion: "A set of related web pages located under a single domain name, typically produced by a single person or organization."
+    },
+    {
+        ingles: "Workstation",
+        español: "Estación de trabajo",
+        definicion: "A high-performance computer system used for technical or scientific applications."
+    },
+    {
+        ingles: "Zettabyte",
+        español: "Zettabyte",
+        definicion: "A unit of information equal to one sextillion (10^21) bytes."
+    },
+    {
+        ingles: "ZIP",
+        español: "ZIP",
+        definicion: "A file format and a software that compresses files to reduce file size."
     }
 ];
 
