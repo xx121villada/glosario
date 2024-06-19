@@ -1601,7 +1601,15 @@ const palabras = [
         definicion: "A file format and a software that compresses files to reduce file size."
     }
 ];
-
+const contenedorPrincipal = document.getElementById('contenedorPrincipal');
+const botonEmpezar = document.getElementById('boton-empezar');
+const ImagenInicial = document.getElementById('inicio');
+contenedorPrincipal.style.display = 'none';
+ImagenInicial.style.display = 'block';
+botonEmpezar.addEventListener('click', function() {
+    ImagenInicial.style.display = 'none';
+    contenedorPrincipal.style.display = 'block';
+});
 function mostrarDefinicion(divDefinicion) {
     if (divDefinicion.style.display === "none") {
         divDefinicion.style.display = "block";
@@ -1620,7 +1628,7 @@ function crearDiv2(ingles, español, definicion, primeraLetra) {
             const divLetra = document.createElement('div');
             divLetra.classList.add('letra');
             divLetra.innerHTML = `<h2>${letras[cont]}</h2>`;
-            document.body.appendChild(divLetra);
+            contenedorPrincipal.appendChild(divLetra);
             contDiv = 2;
         }
         const divPrincipal = document.createElement("div");
@@ -1634,7 +1642,7 @@ function crearDiv2(ingles, español, definicion, primeraLetra) {
         boton.classList.add('word');
         divPrincipal.appendChild(boton);
         divPrincipal.appendChild(divDefinicion);
-        document.body.appendChild(divPrincipal);
+        contenedorPrincipal.appendChild(divPrincipal);
         boton.addEventListener("click", function () {
             mostrarDefinicion(divDefinicion);
         });

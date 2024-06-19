@@ -1,19 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
-    background-color: #9cf3f9;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-.containertitulo{
-    border: solid #9cf3f9;
-    margin: 10px;
+#bdy{
+    background:linear-gradient(rgb(1, 1, 1),rgba(13, 14, 14, 0.306)) fixed;
+   padding: 0 10% 0 10%;
 }
 header {
-    background-color: #333;
     color: rgb(55, 143, 146);
     padding: 10px 0;
     font-size: 55px;
@@ -21,25 +20,38 @@ header {
     text-align: center;
 
 }
-header h1 {
-    margin: 0;
-    padding: 0 0 0 20px;
-}
 .word {
     display: inline-block;
     width: 250px; 
     height: 50px;
-    margin: 20px 18px;
-    font-size: 16px;
+    margin: 20px 20px;
+    font-size: 20px;
     cursor: pointer;
     position:relative;
-    background-color: #ddd;
     border-radius: 5px;
     line-height: 50px;
     text-align: center;
-    border: solid black  ;
-    background-color: cadetblue;
+    border: solid black;
+    color: whitesmoke;
+    box-shadow: 0 0 0 0 rgba(145, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    background-image: linear-gradient(-255deg, #484848 35%, #815ca8 100%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
     border-radius: 20px;
+}
+.word::after{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -50px;
+    left: -100px;
+    background: #13ff13;
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+.word:hover{
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.7);
 }
 .definition{
     display: none;
@@ -52,16 +64,55 @@ header h1 {
 }
 .principal{
     display: inline-block;
+    align-items: center;
 }
 #busqueda{
     background-color: white;
     padding: 8px;
     font-size: 15px;
-    width: 20%;
+    border: black solid 0.2em;
+}
+.input-group-text{
+    border: black solid 0.1em;
+}
+.input-group{
+    width: 40%;
+    margin: 0 auto
 }
 .letra{
     /* text-align: center; */
-    font-size: 2em;
+    font-size: 30px;
     font-family: algerian;
     margin-left: 30px;
+}
+#contenedorPrincipal{
+    /* margin: 5% 5% 5% 5%; */
+    background-color: white;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+#inicio{
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,075)),url(./img/WhatsApp\ Image\ 2024-06-18\ at\ 10.38.19\ PM\ \(1\).jpeg), no-repeat center center fixed;
+    background-size: cover;
+}
+#primeraImagen{
+    height: 100%;
+    width: 100%; 
+}
+#boton-empezar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8%; 
+    height: 12%;
+    font-size: 1.5em;
+    background-color: #101111;
+    color: white;
+    border-radius: 50%;
+    border:solid 0.2em white;
+    cursor: pointer;
 }
