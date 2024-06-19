@@ -13,12 +13,11 @@ body{
    padding: 0 10% 0 10%;
 }
 header {
-    color: rgb(55, 143, 146);
+    color: #696464;
     padding: 10px 0;
     font-size: 55px;
     font-family: algerian;
     text-align: center;
-
 }
 .word {
     display: inline-block;
@@ -81,7 +80,6 @@ header {
 }
 .letra{
     /* text-align: center; */
-    font-size: 30px;
     font-family: algerian;
     margin-left: 30px;
 }
@@ -94,9 +92,12 @@ header {
     height: auto;
     margin: 0;
 }
-#inicio{
-    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,075)),url(./img/WhatsApp\ Image\ 2024-06-18\ at\ 10.38.19\ PM\ \(1\).jpeg), no-repeat center center fixed;
-    background-size: cover;
+body{
+    /* background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,075)),url("/img/WhatsApp\ Image\ 2024-06-18\ at\ 10.38.19\ PM\ \(1\).jpeg"), no-repeat center center fixed; */
+    /* background-size: cover; */
+    background-image:linear-gradient(rgba(67, 71, 82, 0.75),rgba(5,7,12,075)), url('/Glosario/img/WhatsApp\ Image\ 2024-06-18\ at\ 10.38.19\ PM\ \(1\).jpeg'); 
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-repeat: no-repeat;
 }
 #primeraImagen{
     height: 100%;
@@ -104,15 +105,24 @@ header {
 }
 #boton-empezar {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 8%; 
     height: 12%;
-    font-size: 1.5em;
-    background-color: #101111;
-    color: white;
+    font-size: 2em;
+    background-color: #10111100;
+    color: rgba(247, 230, 230, 0.849);
     border-radius: 50%;
-    border:solid 0.2em white;
+    border:solid 0.1em  rgba(255, 255, 255, 0.842);
     cursor: pointer;
+}
+.tituloInicio{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 100px;
+    font-family: Algerian;
+    margin: 20px;
+    text-align:center;
+    position: absolute;
+    top: 20%;
 }

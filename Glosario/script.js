@@ -1600,6 +1600,7 @@ const palabras = [
         español: "ZIP",
         definicion: "A file format and a software that compresses files to reduce file size."
     }
+
 ];
 const contenedorPrincipal = document.getElementById('contenedorPrincipal');
 const botonEmpezar = document.getElementById('boton-empezar');
@@ -1620,7 +1621,7 @@ function mostrarDefinicion(divDefinicion) {
 
 let cont = 0;
 let contDiv = 1;
-const letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+const letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Z'];
 
 function crearDiv2(ingles, español, definicion, primeraLetra) {
     if (primeraLetra === letras[cont]) {
@@ -1670,15 +1671,10 @@ window.addEventListener('DOMContentLoaded', function () {
             const textoBoton = boton.textContent.toLowerCase();
 
             if (textoBoton.includes(terminoBusqueda)) {
-                div.style.display = 'block';
+                div.style.display = 'inline-block';
             } else {
                 div.style.display = 'none';
             }
         });
-
-        // Si el campo de entrada está vacío, recargar la página
-        if (this.value === '') {
-            location.reload();
-        }
     });
 });
