@@ -1607,6 +1607,10 @@ const botonEmpezar = document.getElementById('boton-empezar');
 const ImagenInicial = document.getElementById('inicio');
 contenedorPrincipal.style.display = 'none';
 ImagenInicial.style.display = 'block';
+function cambiarFondo(){
+    document.body.className = ''
+    document.body.classList.add('claseFondo')
+}
 botonEmpezar.addEventListener('click', function() {
     ImagenInicial.style.display = 'none';
     contenedorPrincipal.style.display = 'block';
